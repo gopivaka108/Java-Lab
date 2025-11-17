@@ -18,9 +18,11 @@ class SearchElement {
                 System.out.print("Element "+key+" found at position "+(i+1));
             }
             found = true;
+            break;
         }
         if(!found) {
             System.out.print("Element not found.");
         }
+        sc.close();
     }
 }
